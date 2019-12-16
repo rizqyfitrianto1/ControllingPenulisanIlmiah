@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913860098288",
+    "firebase_url": "https://controllingpi-79758.firebaseio.com",
+    "project_id": "controllingpi-79758",
+    "storage_bucket": "controllingpi-79758.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913860098288:android:95f865ba898c351e",
+        "android_client_info": {
+          "package_name": "com.example.cindyjulaika.aplikasi3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913860098288-afvkte731mvuqbchf05e2b1cbbllodm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cindyjulaika.aplikasi3",
+            "certificate_hash": "aefec00e5ded664cf358f994f5c109d20b1d2c2a"
+          }
+        },
+        {
+          "client_id": "913860098288-sru76886esro9o3833qunq5v32ivfbni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAStwjwvbCpMXgMojmyv8LwsLkqKNMqNd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913860098288-sru76886esro9o3833qunq5v32ivfbni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

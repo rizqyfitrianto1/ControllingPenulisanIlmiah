@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rizqy.aplikasi3">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.rizqy.aplikasi3.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.rizqy.aplikasi3.Status" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Login"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Status" />
+        <activity android:name="com.example.rizqy.aplikasi3.Main" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.ProgressActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Main" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.AccountActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Main" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.PanduanActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Main" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.FormulirActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Main" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.DospemCard"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Main" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.MahasiswaBimbingan"
+            android:parentActivityName="com.example.rizqy.aplikasi3.DospemCard" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Fti_book1Activity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.PanduanActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Fikti_book1Activity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.PanduanActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Fe_book1Activity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.PanduanActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Fp_book1Activity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.PanduanActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Fs_book1Activity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.PanduanActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.Ftsp_book1Activity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.PanduanActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.FormSertifikatActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.FormulirActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.FormPersetujuanActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.FormulirActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.FormNilaiActivity"
+            android:parentActivityName="com.example.rizqy.aplikasi3.FormulirActivity" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.DosenLogin"
+            android:parentActivityName="com.example.rizqy.aplikasi3.Status" />
+        <activity android:name="com.example.rizqy.aplikasi3.DosenMain" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.DosenAccount"
+            android:parentActivityName="com.example.rizqy.aplikasi3.DosenMain" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.DosenMahasiswa"
+            android:parentActivityName="com.example.rizqy.aplikasi3.DosenMain" />
+        <activity
+            android:name="com.example.rizqy.aplikasi3.DosenMahasiswa1"
+            android:parentActivityName="com.example.rizqy.aplikasi3.DosenMahasiswa" />
+    </application>
+
+</manifest>

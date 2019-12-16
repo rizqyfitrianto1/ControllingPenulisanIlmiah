@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Status">
+
+    <FrameLayout
+
+        android:layout_width="338dp"
+        android:layout_height="257dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp">
+
+        <ImageButton
+            android:id="@+id/mahasiswa"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bgmahasiswa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="95dp"
+            android:text="atau"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="italic|bold" />
+
+        <ImageButton
+            android:id="@+id/dosen"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bgdosen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:text="MAHASISWA"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="247dp"
+            android:layout_marginTop="170dp"
+            android:text="DOSEN"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/buku2" />
+</RelativeLayout>

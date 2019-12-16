@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Controlling</string>
+    <string name="npm"></string>
+    <string name="password"></string>
+    <string name="masuk">MASUK</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="kelas">Kelas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="lokasikampus">Lokasi Kampus</string>
+
+</resources>
