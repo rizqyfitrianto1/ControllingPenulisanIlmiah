@@ -1,5 +1,5 @@
 # ControllingPenulisanIlmiah
-Aplikasi Controlling Penulisan Ilmiah dibuat untuk tugas Penulisan Ilmiah 2018 Universitas Gunadarma
+Aplikasi Controlling Penulisan Ilmiah dibuat menggunakan Firebase Database untuk tugas Penulisan Ilmiah 2018 Universitas Gunadarma
 
 ## Mahasiswa
 <table >
